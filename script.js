@@ -11,7 +11,7 @@ async function askAI() {
   responseDiv.textContent = "Обработка...";
   input.disabled = true;
 
-  const apiKey = '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'; // Замени на свой ключ
+  const apiKey = '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'; // Замени на свой ключ
 
   try {
     const res = await fetch("https://openrouter.ai/api/v1/chat/completions ", {
