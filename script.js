@@ -21,7 +21,7 @@ async function askAI() {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: "qwen/qwen-max", // можно заменить на deepseek/deepseek-chat или др.
+        model: "deepseek/deepseek-chat", // можно заменить на deepseek/deepseek-chat или др.
         messages: [
           {
             role: "system",
