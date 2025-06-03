@@ -50,8 +50,6 @@ async function askAI() {
     <script>
     const output = marked.parse(answer);
     </script>
-
-
     
     responseDiv.textContent = output;
   } catch (err) {
