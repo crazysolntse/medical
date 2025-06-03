@@ -48,7 +48,7 @@ async function askAI() {
     <!-- marked.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js "></script>
     <script>
-    const output = marked.parse(answer);
+    const output = "!!" + marked.parse(answer);
     </script>
     
     responseDiv.textContent = output;
