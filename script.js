@@ -51,7 +51,7 @@ async function askAI() {
     const output = "!!" + marked.parse(answer);
     </script>
     
-    responseDiv.textContent = output;
+    responseDiv.textContent = answer;
   } catch (err) {
     console.error(err);
     responseDiv.textContent = "Ошибка: Не удалось получить ответ от AI.";
