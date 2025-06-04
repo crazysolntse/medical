@@ -45,11 +45,11 @@ async function askAI() {
     const answer = data.choices[0]?.message?.content || "Не удалось получить ответ.";
 
     
-    //<!-- marked.js CDN -->
-    //<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js "></script>
-    //<script>
-    //const output = "!!" + marked.parse(answer);
-    //</script>
+    <!-- marked.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js "></script>
+    <script>
+    const output = "!!" + marked.parse(answer);
+    </script>
     
     responseDiv.textContent = answer;
   } catch (err) {
